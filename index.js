@@ -19,5 +19,12 @@ return newFacts;
 }
 
 function iLoveTheBeatles(n){
-  
+    const heart = []
+
+  do {
+    heart.push('I love the Beatles!')
+    n++
+  } while (n < 15)
+
+  return heart
 }
